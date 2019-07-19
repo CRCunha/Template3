@@ -1,0 +1,24 @@
+:root {
+    /* VARIAVEL EXEMPLO */
+    --flex: flex;
+    --center: center;
+    --flex-end: flex-end;
+    --flex-start: flex-start;
+    --space-evenly: space-evenly;
+    --space-around: space-around;
+    --space-between: space-between;
+    --wrap: wrap;
+    --nowrap: nowrap;
+    --fonte-padrao: 'Raleway', sans-serif;
+    --branco: rgb(231, 231, 231);
+    --azul: #364C63;
+}
+
+:root {
+    font-family: var(--fonte-padrao);
+}
+
+
+/* QUERY EXEMPLO */
+
+@media only screen and (max-width: 800px) {}
