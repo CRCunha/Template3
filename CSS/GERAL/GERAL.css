@@ -19,6 +19,10 @@
     font-family: var(--fonte-padrao);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 /* QUERY EXEMPLO */
 
