@@ -1,0 +1,100 @@
+main .section2 .content .cards {
+    width: 80%;
+    height: 100%;
+    display: var(--flex);
+    justify-content: var(--space-around);
+    align-items: var(--flex-start);
+}
+
+main .section2 .content .cards .card {
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.08);
+}
+
+main .section2 .content .cards .card .card-header {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;
+    height: 80px;
+    /* background-size: 180%;
+    background-image: url("../../../IMG/HEADER/headerBC.jpg"); */
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+    flex-wrap: var(--wrap);
+}
+
+main .section2 .content .cards .card .card-header .title {
+    width: 70%;
+    height: 100%;
+    font-size: 14pt;
+    color: var(--azul);
+    display: var(--flex);
+    justify-content: var(--flex-start);
+    align-items: var(--center);
+}
+
+main .section2 .content .cards .card .card-header .line {
+    width: 100%;
+    height: 1px;
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+}
+
+main .section2 .content .cards .card .card-header .line .color {
+    width: 80%;
+    height: 100%;
+    background-color: rgba(54, 76, 99, 0.329);
+}
+
+main .section2 .content .cards .card .card-content {
+    width: 100%;
+    height: 320px;
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+    flex-wrap: var(--wrap);
+}
+
+main .section2 .content .cards .card .card-content .container {
+    width: 80%;
+    height: 60%;
+    font-size: 11pt;
+    color: var(--azul2);
+}
+
+main .section2 .content .cards .card .card-content .btn-container {
+    width: 100%;
+    height: 20%;
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+}
+
+main .section2 .content .cards .card .card-content .btn-container .container {
+    width: 80%;
+    height: 100%;
+}
+
+main .section2 .content .cards .card .card-content .btn-container .container .btn {
+    width: 150px;
+    height: 80%;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+main .section2 .content .cards .card .card-content .btn-container .container .btn a {
+    width: 100%;
+    height: 100%;
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+    text-decoration: none;
+    color: var(--azul);
+    font-size: 12pt;
+}
