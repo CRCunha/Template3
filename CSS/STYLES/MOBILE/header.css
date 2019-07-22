@@ -56,5 +56,9 @@
     main .section2 .content .cards .card {
         margin-bottom: 30px;
     }
+    footer {
+        margin-top: 820px;
+        height: 100px;
+    }
     /* FIXES */
 }

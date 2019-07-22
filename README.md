@@ -1,5 +1,5 @@
 # Desk
-![](https://i.imgur.com/NJkTEgu.png)
+![](https://i.imgur.com/xOsTJKG.png)
 
 # Mob
-![](https://i.imgur.com/qPCOg4M.png)
+![](https://i.imgur.com/kjZCGrJ.png)
