@@ -164,11 +164,11 @@
         <div class="title" id="contato">Contato</div>
         <div class="container">
             <form action="https://formspree.io/contato@cristiancunha.me" method="POST">
-                <input type="text" name="nome" placeholder="Nome:" autocomplete="off">
-                <input type="text" name="sobre-nome" placeholder="Sobrenome:" autocomplete="off">
-                <input type="email" name="email" id="" placeholder="Email:" autocomplete="off">
+                <input type="text" name="nome" id="nome" placeholder="Nome:" autocomplete="off">
+                <input type="text" name="sobre-nome" id="s-nome" placeholder="Sobrenome:" autocomplete="off">
+                <input type="email" name="email" id="email" placeholder="Email:" autocomplete="off">
                 <br>
-                <input type="number" name="numero" id="" placeholder="Numero:" autocomplete="off">
+                <input type="number" name="numero" id="numero" placeholder="Numero:" autocomplete="off">
                 <br>
                 <input id="input-planos" list="planos" name="planos" placeholder="Planos">
                 <br>
@@ -178,10 +178,10 @@
                     <option value="Plus+">
                 </datalist>
                 <br>
-                <textarea name="mensagem" placeholder="Mensagem:" autocomplete="off"></textarea>
+                <textarea id="mensagem" name="mensagem" placeholder="Mensagem:" autocomplete="off"></textarea>
                 <br>
                 <div class="btn-enviar">
-                    <input type="submit" name="enviar" value="Enviar">
+                    <input type="submit" id="enviar" name="enviar" value="Enviar">
                 </div>
                 <input style="display: none " type="hidden " name="_next " value="https://crcunha.github.io/Template3 ">
             </form>

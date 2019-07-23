@@ -52,13 +52,38 @@
     }
     main .section2 {
         margin-top: 650px;
+        margin-bottom: 780px;
     }
     main .section2 .content .cards .card {
         margin-bottom: 30px;
     }
     footer {
-        margin-top: 820px;
+        margin-top: 50px;
         height: 100px;
+    }
+    #nome {
+        width: 80%;
+    }
+    #s-nome {
+        width: 80%;
+    }
+    #email {
+        width: 80%;
+    }
+    #numero {
+        width: 80%;
+    }
+    #input-planos {
+        width: 100%;
+        margin-top: -60px;
+    }
+    #mensagem {
+        margin-left: -39%;
+        width: 80%;
+        margin-top: 80px;
+    }
+    #enviar {
+        width: 60%;
     }
     /* FIXES */
 }
